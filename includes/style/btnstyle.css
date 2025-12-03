@@ -1,0 +1,116 @@
+:root {
+    --green-color-rgb: rgb(100, 233, 11);
+    --green-color-hsl: hsl(100, 100%, 62%);
+    --green-color-hsl-darker: hsl(100, 100%, 52%);
+    --green-color-hsl-darkest: hsl(100, 100%, 42%);
+
+    --indigo-color-rgb: rgb(102, 16, 242);
+    --indigo-color-hsl: hsl(263, 90%, 51%);
+    --indigo-color-hsl-darker: hsl(263, 100%, 41%);
+    --indigo-color-hsl-darkest: hsl(263, 100%, 31%);
+
+    --pink-color-rgb: rgb(243, 54, 148);
+    --pink-color-hsl: hsl(330, 89%, 58%);
+    --pink-color-hsl-darker: hsl(330, 89%, 48%);
+    --pink-color-hsl-darkest: hsl(330, 89%, 38%);
+
+    --orange-color-rgb: rgb(253, 126, 20);
+    --orange-color-hsl: hsl(27, 98%, 54%);
+    --orange-color-hsl-darker: hsl(27, 98%, 44%);
+    --orange-color-hsl-darkest: hsl(27, 98%, 40%);
+
+    --teal-color-rgb: rgb(32, 201, 151);
+    --teal-color-hsl: hsl(162, 73%, 46%);
+    --teal-color-hsl-darker: hsl(162, 73%, 36%);
+    --teal-color-hsl-darkest: hsl(162, 73%, 26%);
+
+    --dark-color: #1b1b1b;
+    --white-color: #fff;
+    --light-color: #dedede;
+    --light-grey: #cecccc;
+}
+
+.btn-c-orange {
+    --bs-btn-color: var(--white-color);
+    --bs-btn-bg: var(--orange-color-hsl);
+    --bs-btn-border-color: var(--orange-color-hsl);
+    --bs-btn-hover-color: var(--white-color);
+    --bs-btn-hover-bg: var(--orange-color-hsl-darker);
+    --bs-btn-hover-border-color: var(--orange-color-hsl-darkest);
+    --bs-btn-focus-shadow-rgb: var(--orange-color-rgb);
+    --bs-btn-active-color: var(--white-color);
+    --bs-btn-active-bg: var(--orange-color-hsl-darkest);
+    --bs-btn-active-border-color: var(--orange-color-hsl-darkest);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--light-grey);
+    --bs-btn-disabled-bg: var(--orange-color-hsl);
+    --bs-btn-disabled-border-color: var(--orange-color-hsl);
+}
+
+.btn-c-green {
+    --bs-btn-color: var(--dark-color);
+    --bs-btn-bg: var(--green-color-hsl);
+    --bs-btn-border-color: var(--green-color-hsl);
+    --bs-btn-hover-color: var(--dark-color);
+    --bs-btn-hover-bg: var(--green-color-hsl-darker);
+    --bs-btn-hover-border-color: var(--green-color-hsl-darkest);
+    --bs-btn-focus-shadow-rgb: var(--green-color-rgb);
+    --bs-btn-active-color: var(--dark-color);
+    --bs-btn-active-bg: var(--green-color-hsl-darkest);
+    --bs-btn-active-border-color: var(--green-color-hsl-darkest);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--light-grey);
+    --bs-btn-disabled-bg: var(--green-color-hsl);
+    --bs-btn-disabled-border-color: var(--green-color-hsl);
+}
+
+.btn-c-indigo {
+    --bs-btn-color: var(--white-color);
+    --bs-btn-bg: var(--indigo-color-hsl);
+    --bs-btn-border-color: var(--indigo-color-hsl);
+    --bs-btn-hover-color: var(--white-color);
+    --bs-btn-hover-bg: var(--indigo-color-hsl-darker);
+    --bs-btn-hover-border-color: var(--indigo-color-hsl-darkest);
+    --bs-btn-focus-shadow-rgb: var(--indigo-color-rgb);
+    --bs-btn-active-color: var(--white-color);
+    --bs-btn-active-bg: var(--indigo-color-hsl-darkest);
+    --bs-btn-active-border-color: var(--indigo-color-hsl-darkest);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--light-grey);
+    --bs-btn-disabled-bg: var(--indigo-color-hsl);
+    --bs-btn-disabled-border-color: var(--indigo-color-hsl);
+}
+
+.btn-c-pink {
+    --bs-btn-color: var(--white-color);
+    --bs-btn-bg: var(--pink-color-hsl);
+    --bs-btn-border-color: var(--pink-color-hsl);
+    --bs-btn-hover-color: var(--white-color);
+    --bs-btn-hover-bg: var(--pink-color-hsl-darker);
+    --bs-btn-hover-border-color: var(--pink-color-hsl-darkest);
+    --bs-btn-focus-shadow-rgb: var(--pink-color-rgb);
+    --bs-btn-active-color: var(--white-color);
+    --bs-btn-active-bg: var(--pink-color-hsl-darkest);
+    --bs-btn-active-border-color: var(--pink-color-hsl-darkest);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--light-grey);
+    --bs-btn-disabled-bg: var(--pink-color-hsl);
+    --bs-btn-disabled-border-color: var(--pink-color-hsl);
+}
+
+.btn-c-teal {
+    --bs-btn-color: var(--white-color);
+    --bs-btn-bg: var(--teal-color-hsl);
+    --bs-btn-border-color: var(--teal-color-hsl);
+    --bs-btn-hover-color: var(--white-color);
+    --bs-btn-hover-bg: var(--teal-color-hsl-darker);
+    --bs-btn-hover-border-color: var(--teal-color-hsl-darkest);
+    --bs-btn-focus-shadow-rgb: var(--teal-color-rgb);
+    --bs-btn-active-color: var(--white-color);
+    --bs-btn-active-bg: var(--teal-color-hsl-darkest);
+    --bs-btn-active-border-color: var(--teal-color-hsl-darkest);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--light-grey);
+    --bs-btn-disabled-bg: var(--teal-color-hsl);
+    --bs-btn-disabled-border-color: var(--teal-color-hsl);
+}

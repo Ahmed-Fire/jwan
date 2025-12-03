@@ -1,0 +1,22 @@
+# Database configuration (stored outside web root)
+../jwan_config/
+
+# System files
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
