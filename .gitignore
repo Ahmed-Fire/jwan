@@ -10,6 +10,7 @@ config/db_config.php
 # IDE files
 .vscode/
 .idea/
+.qodo/
 *.swp
 *.swo
 *~
