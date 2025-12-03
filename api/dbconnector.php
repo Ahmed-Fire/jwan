@@ -1,14 +1,14 @@
 <?php
 /**
  * Database Connector
- * Loads credentials from secure configuration file outside web root
+ * Loads credentials from secure configuration file
  */
 
-// Load database configuration from secure location
-$config_path = dirname(__DIR__, 2) . '/jwan_config/db_config.php';
+// Load database configuration from config directory
+$config_path = dirname(__DIR__) . '/config/db_config.php';
 
 if (!file_exists($config_path)) {
-    die("Configuration file not found. Please ensure db_config.php exists outside the web root.");
+    die("Configuration file not found. Please ensure db_config.php exists in the config directory.");
 }
 
 $config = require $config_path;

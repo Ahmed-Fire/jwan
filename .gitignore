@@ -1,5 +1,5 @@
-# Database configuration (stored outside web root)
-../jwan_config/
+# Database configuration
+config/db_config.php
 
 # System files
 .DS_Store
