@@ -7,7 +7,7 @@
             Copyright &copy; JWAN Furniture <?php echo date('Y'); ?>
           </div>
         </div>
-        <div class="col-auto">
+        <!-- <div class="col-auto">
           <a class="link-light small" href="#!">Privacy</a>
           <span class="text-white mx-1">&middot;</span>
           <a class="link-light small" href="#!">Terms</a>
@@ -15,7 +15,7 @@
           <a class="link-light small" href="aboutus.html">Contact</a>
           <span class="text-white mx-1">&middot;</span>
           <a class="link-light small" href="login.php">Login</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
