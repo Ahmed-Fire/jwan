@@ -23,7 +23,8 @@ if (isset($_POST["login"])) {
       $_SESSION["username"] = $_POST["username"];
 
       $query1 = "SELECT type FROM accounts WHERE username='$user' LIMIT 1";
-      $mysqli = new mysqli("localhost", "root", "", "jwan");
+      // $mysqli = new mysqli("localhost", "root", "", "jwan");
+      $mysqli = new mysqli("localhost", "u608995856_jwan_web", "Jwan&1980@", "u608995856_Jwan");
       $result = $mysqli->query($query1);
       while ($row = $result->fetch_assoc()) {
         $type = $row["type"];
