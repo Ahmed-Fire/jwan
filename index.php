@@ -173,9 +173,9 @@ $result_lw = fetchLastWorks($con);
               <div class="text-white-50">Follow us on social media</div>
             </div>
             <div class="ms-xl-4">
-              <a href="" class="btn btn-primary">Facebook</a>
-              <a href="" class="btn btn-danger">Instagram</a>
-              <a href="" class="btn btn-success">Whatsapp</a>
+              <a target="_blank" href="https://www.facebook.com/jwanfurniture1980" class="btn btn-primary">Facebook</a>
+              <a target="_blank" href="https://www.instagram.com/jwanfurniture_1980" class="btn btn-danger">Instagram</a>
+              <a target="_blank" href="https://wa.link/vrcro1" class="btn btn-success">Whatsapp</a>
             </div>
             <div class="small text-white-50">
               We care about privacy, and will never share your data.
