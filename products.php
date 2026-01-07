@@ -62,7 +62,7 @@ $result_i = fetchProductImages($con);
                                                         <img src="assets/images/products/<?php echo $row_p['p_name'] ?>/<?php echo $row_i['img_name'] ?>" class="card-img-top" alt="...">
                                                         <div class="card-body">
                                                             <h5 class="card-title"><?php echo $row_p['p_name'] ?></h5>
-                                                            
+
                                                             <button type="button" class="btn btn-sm btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#sizeModal_<?php echo htmlspecialchars($row_p['p_keyword']); ?>">Show Sizes</button></br>
                                                             <?php if (!empty($result_i)) {
                                                                 foreach ($result_i as $row_i) if ($row_i['img_key'] == $row_p['p_keyword'] && $row_i['img_type'] == 'Back') {
@@ -121,7 +121,7 @@ $result_i = fetchProductImages($con);
                                                                                                 <img src="assets/images/products/<?php echo $row_p['p_name'] ?>/<?php echo $row_i['img_name'] ?>" class="card-img-top" alt="...">
                                                                                                 <div class="card-body">
                                                                                                     <h5 class="card-title"><?php echo $row_p['p_name'] ?></h5>
-                                                                                                    
+
                                                                                                     <button type="button" class="btn btn-sm btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#sizeModal_<?php echo htmlspecialchars($row_p['p_keyword']); ?>">Show Details</button>
                                                                                                     <?php if (!empty($result_i)) {
                                                                                                         foreach ($result_i as $row_i) if ($row_i['img_key'] == $row_p['p_keyword'] && $row_i['img_type'] == 'Back') {
@@ -199,7 +199,7 @@ $result_i = fetchProductImages($con);
             <div> <!-- New Modals for Product Sizes -->
                 <?php
                 if (!empty($result_p)) {
-                    foreach ($result_p as $product_item) { 
+                    foreach ($result_p as $product_item) {
                 ?>
                         <div class="modal fade" id="sizeModal_<?php echo htmlspecialchars($product_item['p_keyword']); ?>" tabindex="-1" aria-labelledby="sizeModalLabel_<?php echo htmlspecialchars($product_item['p_keyword']); ?>" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
@@ -226,7 +226,13 @@ $result_i = fetchProductImages($con);
                 }
                 ?>
             </div>
-
+            <div class="navbar fixed-bottom">
+                <div class="container-fluid d-flex justify-content-end p-4">
+                    <a href="https://wa.link/vrcro1" target="_blank">
+                        <img class="img-fluid" src="assets/images/whatsapp.png" alt="WhatsApp Button" height="50px" width="50px">
+                    </a>
+                </div>
+            </div>
     </main>
 
     <?php include 'includes/page-footer.php'; ?>

@@ -198,7 +198,7 @@ $result_lw = fetchLastWorks($con);
 
     <div class="navbar fixed-bottom">
       <div class="container-fluid d-flex justify-content-end p-4">
-        <a href="https://wa.me/009647515786666" target="_blank">
+        <a href="https://wa.link/vrcro1" target="_blank">
           <img class="img-fluid" src="assets/images/whatsapp.png" alt="WhatsApp Button" height="50px" width="50px">
         </a>
       </div>
